@@ -83,7 +83,7 @@ function calculateBonus(person) {
     totalBonus : totalBonus
   }
   console.log(newEmployeeObject);
-  displayEmployees();
+  
   return newEmployeeObject;
 }
 
@@ -108,8 +108,5 @@ employeeReview(employees);
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-console.log(employees);
-function displayEmployees(){
-  let el=$('#listOut');
-  el.append(`<li>`+ newEmployeeObject + `</li>`);
-}
+
+
